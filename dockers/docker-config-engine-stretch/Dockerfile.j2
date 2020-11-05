@@ -10,7 +10,10 @@ RUN apt-get update         && \
         build-essential       \
         python-pip            \
         python-dev            \
-        python-setuptools
+        python-setuptools     \
+        zlib1g-dev            \
+        libxslt1-dev          \
+        libxml2-dev
 
 RUN pip install --upgrade pip
 

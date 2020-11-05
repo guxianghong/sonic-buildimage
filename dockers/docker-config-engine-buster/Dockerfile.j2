@@ -13,7 +13,10 @@ RUN apt-get update         && \
         python3-dev           \
         apt-utils             \
         python-setuptools     \
-        python3-setuptools
+        python3-setuptools    \
+        zlib1g-dev            \
+        libxslt1-dev          \
+        libxml2-dev
 
 RUN pip3 install --upgrade pip
 RUN pip2 install --upgrade pip
